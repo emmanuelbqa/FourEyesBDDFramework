@@ -2,7 +2,7 @@
 
 
 
-FourEyesInsight consisting of Two Gherkin Scenarios With reporting tools integrated. README file should be preferrably opened in an editor.
+FourEyesInsight consisting of one gherkin scenario With reporting tools integrated. README file should be preferrably opened in an editor.
 
 USEFUL INFORMATION
 
