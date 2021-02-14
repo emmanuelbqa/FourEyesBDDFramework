@@ -1,0 +1,28 @@
+{
+  "name": "foureyesbddframework",
+  "version": "1.0.0",
+  "description": "BDDCUCUMBERCYPRESS",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules//.bin//cypress run",
+    "headedtest": "npm run test -- --headed",
+    "opencypress": "node_modules//.bin//cypress open"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "Emmanuel B.A",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.4.0",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress-localstorage-commands": "^1.4.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  }
+}

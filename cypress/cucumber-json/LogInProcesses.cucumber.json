@@ -1,0 +1,133 @@
+[
+  {
+    "description": "    Log a user in and out on the Four Eyes Insight Portal and validate with a few DOM components.",
+    "keyword": "Feature",
+    "name": "Log In And Log Out Process Validation",
+    "line": 1,
+    "id": "log-in-and-log-out-process-validation",
+    "tags": [],
+    "uri": "LogInProcesses.feature",
+    "elements": [
+      {
+        "id": "log-in-and-log-out-process-validation;:-log-user-in,-make-assertions-and-log-out",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": ": Log User In, Make Assertions and Log out",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to the FourEyesinsight \"/login\" Page",
+            "result": {
+              "status": "passed",
+              "duration": 2217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I Enter email as \"quality.assurance.challenge@foureyesinsight.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 917000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter password as \"k[h7Jy7_.v$#Gq9T\"",
+            "result": {
+              "status": "passed",
+              "duration": 433000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I intercept the \"**/access/login\" api call",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "click on Log In button causing the item \"user\" to be present thereafter",
+            "result": {
+              "status": "passed",
+              "duration": 551000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the status code for the intercepted api call is 200 with a sites array and id of 30",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user is redirected to \"/home\" by checking the URL",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the title of the page contains \"Analytics Dashboard - Four Eyes Insight\"",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I Click on Account section",
+            "result": {
+              "status": "passed",
+              "duration": 471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I intercept the \"**/access/logout\" and click on Sign out",
+            "result": {
+              "status": "passed",
+              "duration": 282000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the status code for the intercepted api call is 204",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

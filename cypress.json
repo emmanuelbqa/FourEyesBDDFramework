@@ -1,0 +1,8 @@
+{
+    "testFiles": "**/*.feature",
+
+    "baseUrl": "https://dashboardsdev.foureyesinsight.uk",
+
+    "defaultCommandTimeout": 16000
+
+}
