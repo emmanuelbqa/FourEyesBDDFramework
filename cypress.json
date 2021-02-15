@@ -1,8 +1,7 @@
 {
-    "testFiles": "**/*.feature",
-
-    "baseUrl": "https://dashboardsdev.foureyesinsight.uk",
-
-    "defaultCommandTimeout": 16000
-
+  "testFiles": "**/*.feature",
+  "baseUrl": "https://dashboardsdev.foureyesinsight.uk",
+  "defaultCommandTimeout": 16000,
+  "projectId": "993uz7"
+  
 }

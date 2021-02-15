@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node_modules//.bin//cypress run",
     "headedtest": "npm run test -- --headed",
-    "opencypress": "node_modules//.bin//cypress open"
+    "opencypress": "node_modules//.bin//cypress open",
+    "dashboard": "cypress run --record --key c82bba50-8e45-4b52-bc49-7b0be96c4c3f"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
